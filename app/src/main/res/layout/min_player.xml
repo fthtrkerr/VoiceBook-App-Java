@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="PEMBE İNCİLLİ KAFTAN"
+        android:id="@+id/kitapadi"
+        android:textStyle="bold"
+        android:textSize="21sp"
+
+        android:layout_centerHorizontal="true"
+        android:textColor="#000"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_below="@id/kitapadi"
+        android:layout_marginTop="5dp"
+        android:background="@color/cardview_light_background"
+        android:weightSum="1"
+        >
+
+    <ImageButton
+        android:layout_width="0dp"
+        android:layout_weight="0.5"
+        android:layout_height="wrap_content"
+        android:id="@+id/minBtnPlay"
+        android:layout_marginLeft="40dp"
+        android:background="@null"
+
+        android:src="@drawable/ic_playy"
+        />
+    <ImageButton
+
+        android:layout_height="wrap_content"
+        android:id="@+id/minBtnStop"
+        android:layout_width="0dp"
+        android:layout_marginRight="40dp"
+        android:layout_weight="0.5"
+
+        android:background="@null"
+
+
+        android:src="@drawable/ic_stpopp"
+        /></LinearLayout>
+
+
+</RelativeLayout>

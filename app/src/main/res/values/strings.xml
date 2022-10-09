@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Kitabın Sesi</string>
+    <string name="kategori">KATEGORİLER</string>
+    <string name="yazarlar">YAZARLAR</string>
+    <string name="seslendirmenler">SESLENDİRMENLER</string>
+    <string name="dinlemeyedevam">DİNLEMEYE DEVAM ET</string>
+    <string name="ara">ARA...</string>
+
+</resources>

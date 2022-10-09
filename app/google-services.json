@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "617805835997",
+    "firebase_url": "https://seslikitap-2b23d.firebaseio.com",
+    "project_id": "seslikitap-2b23d",
+    "storage_bucket": "seslikitap-2b23d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:617805835997:android:cf5bd87b1585c9e0",
+        "android_client_info": {
+          "package_name": "com.fatihturker.seslikitap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "617805835997-jrm51u3g8s8qo47otvqnfb0cohqbk45p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fatihturker.seslikitap",
+            "certificate_hash": "3131160f83abf36a4bfca280e7f3c60a4ae49fdf"
+          }
+        },
+        {
+          "client_id": "617805835997-qi1dnr7dmqi5q6cf2ln1isbh4vm8uib7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSQD136qqVC3GcgFuNAAzzuGfJ6Gkw_Do"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "617805835997-qi1dnr7dmqi5q6cf2ln1isbh4vm8uib7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

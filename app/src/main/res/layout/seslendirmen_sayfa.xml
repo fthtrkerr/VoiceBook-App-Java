@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:id="@+id/framelayout"
+    >
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+
+        android:src="@drawable/seslendirmen" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KELİME KUTUSU"
+        android:id="@+id/seslendirmen_isim"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        />
+
+</FrameLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/framelayout"
+        android:id="@+id/kitap_list"
+        >
+
+
+    </ListView>
+</RelativeLayout>

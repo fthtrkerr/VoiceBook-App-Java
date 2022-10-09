@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+
+        >
+
+   <ImageButton
+       android:layout_width="match_parent"
+       android:layout_height="100dp"
+       android:background="@drawable/roman"
+       android:id="@+id/roman"
+    />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:id="@+id/klasik"
+            android:layout_height="100dp"
+            android:layout_below="@id/roman"
+            android:background="@drawable/klasik"
+            android:layout_marginTop="7dp" />
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="7dp"
+            android:layout_below="@id/klasik"
+            android:background="@drawable/polisiye"
+            android:id="@+id/polisiye"
+            />
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@id/polisiye"
+            android:background="@drawable/oyku"
+            android:layout_marginTop="7dp"
+            android:id="@+id/oyku"
+
+            />
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@id/oyku"
+            android:background="@drawable/cocuk"
+            android:layout_marginTop="7dp"
+            android:id="@+id/cocuk"
+            />
+
+    </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

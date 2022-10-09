@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            >
+
+            <ImageView
+                android:id="@+id/kitapImage"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/sherlock" />
+
+            <ImageButton
+                android:id="@+id/playButton"
+                android:layout_width="match_parent"
+
+                android:layout_height="40dp"
+                android:layout_below="@id/kitapImage"
+                android:src="@drawable/ic_play"
+                android:background="#e91d63"/>
+
+            <TextView
+                android:id="@+id/bookTitle"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_below="@id/playButton"
+                android:textColor="#000723"
+                android:text="Sherlock Holmes : Üç Çatılı Ev"
+                android:layout_marginHorizontal="5dp"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_below="@id/bookTitle"
+                android:textColor="#000723"
+                android:layout_marginTop="10dp"
+                android:layout_marginHorizontal="5dp"
+                android:id="@+id/yazar"
+                android:text="Yazar: Sir Arthur Conan Doyle"
+                android:textSize="20dp" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_below="@id/yazar"
+                android:id="@+id/gecis"
+                android:background="#e91d63"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_below="@id/gecis"
+                android:layout_marginHorizontal="5dp"
+                android:id="@+id/seslendirmen"
+                android:textColor="#000723"
+                android:textSize="20dp"
+                android:text="Seslendirmen: Okan Bayülgen"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_below="@id/seslendirmen"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:textColor="#000723"
+                android:id="@+id/sure"
+
+                android:text="2:13:56"
+                android:textSize="25dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/sure"
+                android:textColor="#000723"
+
+                android:id="@+id/ozet"
+                android:textSize="19dp"
+                android:layout_margin="15dp"
+                android:layout_marginHorizontal="10dp"
+                android:text="Zengin bir kadın. . .
+Yakışıklı bir genç. . .
+Yaşanan bir birliktelik ve kadına göre biten bir ilişki. . .
+Genç adam, bu ani sona hazır değildir. . .
+Yaşadıklarını farklı isimlerle kağıda döker ve yayımlatmayı düşünür. . .
+Kadın o kadar ünlüdür ki okuyanlar gerçek hikayeyi hemen anlayacaktır. . .
+Kadın, tuttuğu adamlar sayesinde iki kopya halindeki kağıtların bir kopyasına ulaşır. . .
+İkinci kopyanın ise yayıncıya verildiği söylenmektedir. . .
+Kadın, çok zor durumdadır ve ikinci kopyayı, her ne olursa olsun, ele geçirmek zorundadır. . ."
+                />
+
+
+
+        </RelativeLayout>
+</ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:id="@+id/rel1"
+        >
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:hint="Ara..."
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/searchEdit"
+            />
+        <Spinner
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:id="@+id/spinner"
+            android:layout_toRightOf="@id/searchEdit"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="20dp"
+            >
+
+        </Spinner>
+    </RelativeLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/rel1"
+        android:id="@+id/listView_search"
+        >
+
+    </ListView>
+
+
+
+
+</RelativeLayout>

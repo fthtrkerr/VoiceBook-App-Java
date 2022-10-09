@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+ <ScrollView
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="350dp"
+      android:id="@+id/relative1"
+      >
+   <ImageView
+       android:layout_width="150dp"
+       android:layout_height="200dp"
+       android:layout_margin="20dp"
+       android:id="@+id/yazarresim"
+       android:src="@drawable/dostoyevski"
+       />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/yazarresim"
+        android:layout_marginTop="60dp"
+        android:textSize="18dp"
+        android:id="@+id/yazarismi"
+        android:text="Fyodor Dostoyevski"
+        android:textColor="#000"
+        />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="D.T. - Ö.T"
+           android:layout_below="@id/yazarismi"
+           android:layout_toRightOf="@id/yazarresim"
+        android:layout_marginTop="10dp"
+           android:id="@+id/dgol"
+        android:textSize="15dp"
+           android:textColor="#000"
+           />
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="1821-1881"
+       android:layout_below="@id/dgol"
+       android:id="@+id/dogumolum"
+       android:layout_toRightOf="@id/yazarresim"
+       android:layout_marginTop="3dp"
+       android:textSize="15dp"
+       android:textColor="#000"
+       />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/yazarbilgi"
+        android:text="Fyodor Mihayloviç Dostoyevski, Rus roman yazarı. Çocukluğu sarhoş bir baba ve hasta bir anne arasında geçiren Dostoyevski, annesinin ölümünden sonra Petersburg'daki Mühendis Okulu'na girdi. Babasının ölüm haberini burada aldı. Okulu başarıyla bitirdikten sonra İstihkâm Müdürlüğü'ne girdi."
+        android:layout_below="@id/yazarresim"
+
+        />
+  </RelativeLayout>
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_below="@id/relative1"
+
+      >
+      <android.support.v7.widget.RecyclerView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:id="@+id/recylerView"
+          >
+
+      </android.support.v7.widget.RecyclerView>
+  </RelativeLayout>
+  </RelativeLayout>
+ </ScrollView>
+
+</RelativeLayout>

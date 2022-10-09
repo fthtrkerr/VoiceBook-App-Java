@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/onerimenu" android:title="KÜTÜPHANE" android:icon="@drawable/ic_lightbulb_outline_black_24dp"></item>
+<item android:id="@+id/kategorimenu" android:title="KATEGORİLER" android:icon="@drawable/ic_category_all_black_24dp"></item>
+<item android:id="@+id/aramenu" android:title="ARA" android:icon="@drawable/ic_search_black_24dp"></item>
+<item android:id="@+id/yazarmenu" android:title="YAZARLAR" android:icon="@drawable/ic_pencil_black_24dp"></item>
+<item android:id="@+id/seslendirmenmenu" android:title="SESLENDİRMENLER" android:icon="@drawable/ic_mic_black_24dp"></item>
+
+<item android:id="@+id/dinlemeye_devam" android:title="DİNLEMEYE DEVAM ET" android:icon="@drawable/ic_playy"></item>
+
+</menu>

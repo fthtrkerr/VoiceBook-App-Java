@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    >
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:id="@+id/textTimer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColor="#000723"
+            android:layout_marginTop="10dp"
+            android:fontFamily="monospace"
+
+            android:text="00.00.00"
+            android:textSize="24sp" />
+
+        <SeekBar
+            android:id="@+id/seekBar2"
+            style="@android:style/Widget.DeviceDefault.SeekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textTimer"
+            android:layout_margin="8dp" />
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="5dp"
+        android:layout_below="@id/header"
+        android:padding="5dp">
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:scaleType="fitCenter"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/sherlock"
+
+
+
+            android:layout_marginTop="5dp"
+            android:id="@+id/kitapresim"
+            ></ImageView>
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_below="@id/kitapresim"
+            android:layout_centerHorizontal="true"
+
+
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-1118359777089249/8051481652" />
+
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="397dp"
+            android:layout_height="75dp"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:weightSum="0.9"
+            android:layout_marginBottom="10dp"
+
+            >
+
+            <ImageButton
+                android:id="@+id/ic_geri"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="40dp"
+                android:layout_weight="0.3"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_geri"
+
+                />
+
+            <ImageButton
+                android:id="@+id/btn_play_pause"
+                style="@android:style/Widget.DeviceDefault.Light.ImageButton"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+
+                android:layout_marginBottom="40dp"
+
+
+                android:layout_weight="0.3"
+                android:background="@null"
+
+
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_playy" />
+
+            <ImageButton
+                android:id="@+id/ic_ileri"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="48dp"
+                android:layout_weight="0.3"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_ileri"
+
+                />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
